@@ -1,0 +1,24 @@
+{
+  "name": "whatsApp-package",
+  "version": "1.0.0",
+  "description": "Package for React Native WhatsApp project",
+  "main": "index.js",
+  "repository": "https://github.com/rajmera3/ChattyApp.git",
+  "author": "Rahul",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch server --watch package.json server/index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.1.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "nodemon": "^1.14.3"
+  }
+}
